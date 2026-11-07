@@ -37,3 +37,6 @@
 /* OS Layer */
 #define MAC_BASE_LAYER 0
 #define WIN_BASE_LAYER 2
+
+/* Append to the bottom of config.h */
+#define MIDI_ADVANCED

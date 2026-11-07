@@ -31,6 +31,10 @@ enum custom_keycodes {
     KC_MAC_SCREEN_SHOT,
     KC_WIN_CORTANA,
     OS_TOGGL,
+    KC_LP_MODE_CYCLE, // Cycles through Mode 0 -> 1 -> 2
+    KC_LP_MODE_PROG,  // Jumps to Mode 0 (Programmer)
+    KC_LP_MODE_FX,    // Jumps to Mode 1 (MIDI + Keychron RGB)
+    KC_LP_MODE_KBD,   // Jumps to Mode 2 (Standard Keyboard)
     NEW_SAFE_RANGE,
 };
 
@@ -41,3 +45,5 @@ enum custom_keycodes {
 #define KC_FILE KC_WIN_FILE_EXPLORER
 #define KC_SNAP KC_MAC_SCREEN_SHOT
 #define KC_CTANA KC_WIN_CORTANA
+
+
